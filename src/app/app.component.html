@@ -4,7 +4,8 @@
   </h1>
 </div>
 <h2>Filter names:</h2>
-<input type="text" [change]="">
+
+<input type="text" (input)="filterNames($event.target.value)">
 
 <ul>
   <li *ngFor="let name of names$ | async">{{ name.name }}</li>

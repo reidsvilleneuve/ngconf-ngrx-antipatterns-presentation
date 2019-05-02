@@ -2,11 +2,11 @@ import { ModuleWithProviders, NgModule, Optional, SkipSelf } from '@angular/core
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 
-import { NamesService } from '../shared/names.service';
+import { NameService } from '../shared/name.service';
 
 @NgModule({
   imports: [CommonModule, HttpClientModule],
-  providers: [SearchAheadService]
+  providers: [NameService]
 })
 export class CoreModule {
   constructor(

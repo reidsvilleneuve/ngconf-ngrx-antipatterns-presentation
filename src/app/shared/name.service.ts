@@ -9,12 +9,11 @@ import { Name } from '../state/name/name.model';
   providedIn: 'root'
 })
 export class NameService {
-  BASE_URL = 'api/name';
+  BASE_URL = 'api/names';
 
   constructor(private httpClient: HttpClient) {}
 
   search(query): Observable<Array<Name>> {
-    // TODO: get based on state.paging (filter, sorting, page, limit)
     return this.httpClient.get<Array<Name>>(`${this.BASE_URL}?^${query}`);
   }
 }
