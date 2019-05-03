@@ -4,7 +4,6 @@ import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 
 import { InMemoryDataService } from './core/in-memory-data.service';
 import { StateModule } from './state/state.module';
-import { appReducer, appMetaReducers } from './state/app.reducer';
 import { AppComponent } from './app.component';
 
 @NgModule({

@@ -1,4 +1,5 @@
 import { Action } from '@ngrx/store';
+
 import { Name } from './name.model';
 
 export enum NameActionTypes {
