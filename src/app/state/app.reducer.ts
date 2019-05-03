@@ -1,5 +1,4 @@
 import { ActionReducerMap, MetaReducer } from '@ngrx/store';
-import { routerReducer } from '@ngrx/router-store';
 
 import { storeFreeze } from 'ngrx-store-freeze';
 
@@ -8,8 +7,7 @@ import { environment } from '../../environments/environment';
 import { nameReducer } from './name/name.reducer';
 
 export const appReducer: ActionReducerMap<AppState> = {
-  name: nameReducer,
-  router: routerReducer
+  name: nameReducer
 };
 
 export const appMetaReducers: MetaReducer<AppState>[] = !environment.production

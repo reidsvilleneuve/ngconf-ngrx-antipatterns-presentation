@@ -21,6 +21,7 @@ export class SearchAllNameEntitiesFail implements Action {
   readonly type = NameActionTypes.SearchAllNameEntitiesFail;
   constructor(public payload: { error: string }) {}
 }
+
 export type NameActions =
   | SearchAllNameEntities
   | SearchAllNameEntitiesSuccess
