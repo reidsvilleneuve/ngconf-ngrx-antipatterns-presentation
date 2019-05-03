@@ -13,6 +13,6 @@ export class NameService {
   constructor(private httpClient: HttpClient) {}
 
   search(query): Observable<Array<Name>> {
-    return this.httpClient.get<Array<Name>>(`${this.BASE_URL}?name=^${query}`);
+    return this.httpClient.get<Array<Name>>(`${this.BASE_URL}?name=${query}`);
   }
 }
