@@ -9,17 +9,17 @@ export class InMemoryDataService {
       'Deborah Kurata', 'Dylan Johnson', 'Elad Bezalel', 'Ely Lucas',
       'Eric Simons', 'George Kalpakas', 'Igor Minar', 'James Daniels',
       'Jason Aden', 'Jason Dobry', 'Jeff Cross', 'Jennifer Wadella',
-      'Jeremy Elbourn', 'Jesse Sanders', 'Jo hanna Pearce', 'Joe Eames',
-      'Joey Perrott', 'John Niedzwiecki', 'John Papa', 'Kaitlyn Ekdahl',
-      'Kamil Mysliwiec', 'Kara Erickson', 'Katerina Skroumpelou',
-      'Keen Yee Liau', 'Kern Zhao', 'Kevin Schuchard', 'Kim Maida',
-      'Luis Aviles', 'Manfred Steyer', 'Matias Niemelä', 'Maxim Koretskyi',
-      'Maxim Salnikov', 'Melina Mejía Bedoya', 'Michael Hladky',
-      'Mike Brocchi', 'Mike Hartington', 'Mike Pearson', 'Mike Ryan',
-      'Miles Malerba', 'Minko Gechev', 'Nicole Oliver', 'Rachel Noccioli',
-      'Rado Kirov', 'Reid Villeneuve', 'Rob Wormald', 'Sam Julien',
-      'Sander Elias', 'Sani Yusuf', 'Stephen Fluin', 'Stephen Petranek',
-      'Thomas Burleson', 'Tracy Lee', 'Vikram Subramanian'
+      'Jeremy Elbourn', 'Jesse Sanders (The guy who\'s gunna give me a raise)',
+      'Jo hanna Pearce', 'Joe Eames', 'Joey Perrott', 'John Niedzwiecki',
+      'John Papa', 'Kaitlyn Ekdahl', 'Kamil Mysliwiec', 'Kara Erickson',
+      'Katerina Skroumpelou', 'Keen Yee Liau', 'Kern Zhao', 'Kevin Schuchard',
+      'Kim Maida', 'Luis Aviles', 'Manfred Steyer', 'Matias Niemelä',
+      'Maxim Koretskyi', 'Maxim Salnikov', 'Melina Mejía Bedoya',
+      'Michael Hladky', 'Mike Brocchi', 'Mike Hartington', 'Mike Pearson',
+      'Mike Ryan', 'Miles Malerba', 'Minko Gechev', 'Nicole Oliver',
+      'Rachel Noccioli', 'Rado Kirov', 'Reid Villeneuve', 'Rob Wormald',
+      'Sam Julien', 'Sander Elias', 'Sani Yusuf', 'Stephen Fluin',
+      'Stephen Petranek', 'Thomas Burleson', 'Tracy Lee', 'Vikram Subramanian'
     ];
 
     return {
