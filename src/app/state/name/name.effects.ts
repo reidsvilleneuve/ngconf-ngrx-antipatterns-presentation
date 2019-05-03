@@ -4,7 +4,8 @@ import { Observable, of } from 'rxjs';
 import {
   map,
   catchError,
-  switchMap
+  switchMap,
+  exhaustMap
 } from 'rxjs/operators';
 import { Actions, Effect, ofType } from '@ngrx/effects';
 import { Action } from '@ngrx/store';
